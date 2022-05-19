@@ -8,3 +8,10 @@ cReceptor::~cReceptor()
 {
 
 }
+
+string cReceptor::To_string()
+{
+    return "El receptor tiene el tipo de sangre: " + eTipoSangreToString(this->get_tiposangre());
+}
+
+

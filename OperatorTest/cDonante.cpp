@@ -17,3 +17,9 @@ bool cDonante::operator==(cReceptor* receptor)
 	else
 		return false;
 }
+
+string cDonante::To_string()
+{
+	return "El donante tiene el tipo de sangre: " + eTipoSangreToString(this->get_tiposangre());
+}
+

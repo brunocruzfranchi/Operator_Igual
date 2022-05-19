@@ -1,3 +1,6 @@
+#ifndef _CRECEPTOR_H
+#define _CRECEPTOR_H
+
 #pragma once
 #if !defined(EA_2BC934AB_EAD9_45fb_82F0_8C179B691571__INCLUDED_)
 #define EA_2BC934AB_EAD9_45fb_82F0_8C179B691571__INCLUDED_
@@ -11,7 +14,10 @@ class cReceptor : public cPaciente
 
 		virtual ~cReceptor();
 
+		virtual string To_string();
+
 	private:
 
 };
+#endif
 #endif

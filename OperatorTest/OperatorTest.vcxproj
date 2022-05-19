@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cDonante.h" />
+    <ClInclude Include="cLista.h" />
     <ClInclude Include="cPaciente.h" />
     <ClInclude Include="cReceptor.h" />
   </ItemGroup>

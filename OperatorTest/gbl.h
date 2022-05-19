@@ -13,3 +13,4 @@ enum class eTipoSangre
 	AB_Pos,
 	 B_Pos,
 };
+
